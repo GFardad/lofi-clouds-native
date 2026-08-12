@@ -4,18 +4,19 @@
   "version": "1.0.0",
   "identifier": "com.lofi-clouds.radio",
   "build": {
-    "beforeDevCommand": "npm run dev",
-    "devUrl": "http://localhost:1420",
-    "beforeBuildCommand": "npm run build",
-    "frontendDist": "../dist"
+    "beforeDevCommand": "",
+    "devUrl": "https://radio.lofi-clouds.com/#/",
+    "beforeBuildCommand": "",
+    "frontendDist": null
   },
   "app": {
     "windows": [
       {
         "label": "main",
         "title": "Lofi Clouds Radio",
+        "url": "https://radio.lofi-clouds.com/#/",
         "width": 400,
-        "height": 600,
+        "height": 720,
         "resizable": true,
         "hiddenTitle": true,
         "titleBarStyle": "Overlay",
