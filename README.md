@@ -37,3 +37,4 @@ npm run tauri:build
 - App ID: `com.lofi-clouds.radio`
 - Window style: overlay titlebar with embedded radio view
 - The embedded playback surface uses a secure embedded browser view; if the live site later exposes a direct stream endpoint, the player path can be extended to native audio playback.
+trigger ci
